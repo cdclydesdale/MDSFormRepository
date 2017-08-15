@@ -26,4 +26,17 @@
     <version>6.10</version>
     </dependency>
   </dependencies>
+<profiles>
+<profile>
+<id>MDSRegression</id>
+<build>
+<plugins><plugin>
+<configuration>
+<suiteXmlFiles>testng-mdsform.xml</suiteXmlFiles>
+</configuration>
+</plugin>
+</plugins>
+</build>
+</profile>
+</profiles>	
 </project>
